@@ -1,0 +1,23 @@
+{
+  "name": "socialwallng-server-frontend",
+  "version": "1.0.0",
+  "description": "The server frontend of the SocialWallNG Architecture",
+  "main": "index.js",
+  "repository": "git@github.com:SocialWallNG/server-frontend.git",
+  "author": "Shanoa Ice <25174488+shanoaice@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2",
+    "xo": "^0.41.0"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-tree-router": "^0.8.0",
+    "ws": "^7.5.3"
+  }
+}
